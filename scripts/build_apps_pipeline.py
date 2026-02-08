@@ -14,8 +14,8 @@ from sklearn.model_selection import train_test_split
 RANDOM_STATE = 42
 TEST_SIZE = 0.20
 
-RAW_DATA_PATH = Path("/Users/sayalichougule/Documents/Drexel/Winter26/DSCI611/graduate-enrollment-pipeline/data/raw/apps.csv")
-PROCESSED_DIR = Path("/Users/sayalichougule/Documents/Drexel/Winter26/DSCI611/graduate-enrollment-pipeline/data/processed")
+RAW_DATA_PATH = Path(".. /data/raw/apps.csv")
+PROCESSED_DIR = Path(".. /data/processed")
 
 PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 
